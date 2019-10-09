@@ -1,0 +1,123 @@
+.main--round {
+  height: 30vw;
+    width: 30vw;
+    background-color: black;
+    border-radius: 100%;
+    border: solid 5px #ffffff;
+
+    position: relative;
+}
+
+.label {
+  position: absolute;
+  font-size: 3em;
+  color: white;
+}
+
+.label--20 {
+  left: 50%;
+}
+
+.label--1 {
+      top: 3%;
+      left: 64%;
+      transform: rotate(18deg);
+}
+
+.label--18 {
+      left: 74%;
+      top: 10%;
+      transform: rotate(36deg);
+}
+
+.label--4 {
+    left: 84%;
+    top: 20%;
+    transform: rotate(45deg);
+}
+.label--13 {
+    left: 89%;
+    top: 34%;
+    transform: rotate(63deg);
+}
+
+.label--6 {
+  top: 50%;
+  right: 10;
+}
+.label--10 {
+  top: 63%;
+right: 5%;
+transform: rotate(-63deg);
+}
+.label--15 {
+  top: 73%;
+right: 11%;
+transform: rotate(-45deg);
+}
+.label--2 {
+  top: 81%;
+    right: 22%;
+    transform: rotate(-36deg);
+}
+.label--17 {
+  top: 86%;
+    right: 30%;
+    transform: rotate(-18deg);
+}
+
+.label--3 {
+  bottom: 10;
+  left: 50%;
+}
+
+.label--11 {
+  top: 50%;
+  left: 10;
+}
+
+.label--19   {
+  top: 86%;
+    left: 30%;
+    transform: rotate(18deg);
+}
+.label--7 {
+  top: 81%;
+    left: 22%;
+    transform: rotate(36deg);
+}
+
+.label--16 {
+  top: 73%;
+left: 11%;
+transform: rotate(45deg);
+}
+
+.label--8 {
+  top: 63%;
+left: 5%;
+transform: rotate(63deg);
+}
+
+.label--5 {
+  top: 2%;
+right: 60%;
+transform: rotate(-18deg);
+}
+
+.label--12 {
+      right: 74%;
+      top: 10%;
+      transform: rotate(-36deg);
+}
+
+.label--9 {
+    right: 84%;
+    top: 20%;
+    transform: rotate(-45deg);
+}
+.label--14 {
+    right: 89%;
+    top: 34%;
+    transform: rotate(-63deg);
+}
