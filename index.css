@@ -1,16 +1,28 @@
-.main--round {
+.outer--round {
   height: 30vw;
     width: 30vw;
     background-color: black;
     border-radius: 100%;
-    border: solid 5px #ffffff;
-
+    border: solid 5px #cedaed;
     position: relative;
+}
+
+.main--round {
+  height: 80%;
+width: 80%;
+background-color: #ede8ce;
+border-radius: 100%;
+position: absolute;
+/* left: 20%; */
+/* top: 50%; */
+/* text-align: center; */
+top: 10%;
+left: 10%;
 }
 
 .label {
   position: absolute;
-  font-size: 3em;
+  font-size: 2em;
   color: white;
 }
 
@@ -67,7 +79,7 @@ transform: rotate(-45deg);
 }
 
 .label--3 {
-  bottom: 10;
+  bottom: 0;
   left: 50%;
 }
 
